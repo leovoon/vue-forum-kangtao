@@ -1,7 +1,7 @@
 
 ## Kangtao Forum 
 
-using Vue 3 + Pinia + BootstrapVue + Firebase 🔥
+using Vue 3 + Pinia + Firebase 🔥
 
 ### Clone to local
 
@@ -13,11 +13,4 @@ pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 pnpm dev
 ```
 
-## Checklist
-
-When you use this template, try follow the checklist to update your info properly
-
-- [ ] Clean up the READMEs and remove routes
-
-And, enjoy :)
 

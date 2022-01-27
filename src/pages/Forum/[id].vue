@@ -18,10 +18,10 @@
 
   <div class="col-full push-top text-center">
     <ThreadList v-if="ready" :threads="threads" />
+    <app-spinner v-else />
     <p v-if="!forum?.threads" class="flex justify-center align-center">
       No thread here, create one?
     </p>
-    <app-spinner v-else />
   </div>
 </template>
 

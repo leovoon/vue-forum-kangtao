@@ -6,8 +6,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     AppDate: typeof import('./components/AppDate.vue')['default']
     AppSpinner: typeof import('./components/AppSpinner.vue')['default']
-    'Carbon:warningSquare': typeof import('~icons/carbon/warning-square')['default']
-    CarbonEmpty: typeof import('~icons/carbon/empty')['default']
     CarbonPen: typeof import('~icons/carbon/pen')['default']
     CategoryList: typeof import('./components/CategoryList.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
